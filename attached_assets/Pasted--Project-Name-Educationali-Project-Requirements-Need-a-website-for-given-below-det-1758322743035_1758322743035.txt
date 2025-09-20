@@ -1,0 +1,222 @@
+# 📌 Project Name – Educationali
+
+---
+
+Project Requirements - Need a website for given below details.
+Techstack - PHP with supabase.
+
+---
+
+## 1) Public Website (Informational + Gateway) - Modern And Responsive
+
+### Static / Informational Pages (all separate):
+
+* Home / Landing (overview of Educationali + USPs: global platform, live classes, test series, multilingual).
+* About Us
+* Contact Us (form + email notification)
+* Privacy Policy
+* Terms & Conditions
+* Refund Policy
+* Partner / Investor Page
+
+### User Entry Points:
+
+* Admin Login (email & password)
+* Admin Forgot Password (email → sends reset password link or temp password)
+* Teacher Login / Signup (separate pages)
+* Student Login / Signup (separate pages)
+
+### Public Features:
+
+* Teacher directory (search/filter by subject, topic, language; watch demo videos; view ratings).
+* Public Test Series Preview (sample/mock tests to attract students).
+* Language selector (multilingual support).
+
+---
+
+## 2) Admin Portal
+
+### Dashboard:
+
+* KPIs: total teachers, students, classes, revenue, pending approvals.
+
+### Teacher Management:
+
+* Approve/Reject new teacher registrations (with \$455 payment check).
+* View teacher profiles, documents, demo videos.
+* Manage/disable teacher accounts.
+
+### Student Management:
+
+* List of registered students.
+* View student activity, suspend/reactivate accounts.
+
+### Transaction Monitoring:
+
+* Log of all financial transactions.
+* Commission tracking (15% platform share).
+* Teacher payout management.
+* Refunds & disputes handling.
+
+### Content & Quality Control:
+
+* Approve demo videos, class materials, test series.
+* Dispute resolution system (teacher vs. student).
+
+### Test Series Management:
+
+* Create/manage admin test series.
+* Approve teacher-published test series.
+* Publish/unpublish, view student analytics.
+
+### Scheduling & Events:
+
+* Manage global class schedules & events.
+
+### Analytics & Reporting:
+
+* Revenue reports, teacher performance, student engagement.
+* Export in CSV/PDF.
+
+### Platform Configurations:
+
+* Global settings: multilingual support, payment gateway setup, fees, tax.
+* Manage static pages (About, Terms, etc.).
+
+### Notifications:
+
+* Broadcast announcements (email/SMS).
+
+### Admin Security:
+
+* Admin account management.
+* Forgot password via email.
+* 2FA recommended.
+
+---
+
+## 3) Teacher Portal
+
+### Dashboard:
+
+* Snapshot: earnings, upcoming classes, demo requests, test series stats.
+
+### Registration & Onboarding:
+
+* Teacher signup form + document upload.
+* Upload up to **3 demo videos per subject**.
+* Pay **\$455 registration fee** via integrated payment gateway.
+* Track approval status (pending/approved/rejected).
+
+### Profile Management:
+
+* Edit bio, subjects, qualifications, languages.
+* Manage uploaded demo videos.
+
+### Availability & Scheduling:
+
+* Calendar to set availability for **1:1, 1:10, 1\:Many** classes.
+
+### Class Management:
+
+* View student demo requests (accept/reject/schedule).
+* Host paid live interactive classes (start/stop).
+* Upload materials (PDFs, notes, recordings).
+
+### Test Series Module (Teacher):
+
+* **Create & Manage Tests:**
+
+  * Types: Test Series / Mock Test / Previous Year Papers.
+  * Add details: title, subject, duration, marks.
+  * Add questions (MCQs + explanation) individually or bulk upload (Excel/CSV).
+  * Publish/unpublish anytime.
+
+* **Performance & Analytics:**
+
+  * Student-wise reports.
+  * Question-wise accuracy & difficulty breakdown.
+  * Generate All India Rank for each test.
+  * Download rank list & attempts.
+
+* **Notifications:**
+
+  * Announce new test or result release to students.
+
+### Earnings & Payouts:
+
+* Earnings dashboard: 85% share after commission.
+* Withdraw balance → payout request page.
+* Track payout history.
+
+### Support & Multilingual:
+
+* Ticket/helpdesk system.
+* Language switcher for global use.
+
+---
+
+## 4) Student Portal
+
+### Dashboard:
+
+* Enrolled classes overview.
+* Upcoming live sessions.
+* Progress tracker.
+* Enrolled test series.
+
+### Browse & Discover Teachers:
+
+* Search & filter (topic, subject, language, rating).
+* Watch demo videos before enrolling.
+* View teacher profiles with ratings/reviews.
+
+### Demo & Class Booking:
+
+* Request live demo classes.
+* Secure payments for classes (**1:1, 1:10, 1\:Many**).
+* View receipts & invoices.
+
+### Live Classes:
+
+* Join scheduled interactive sessions via integrated video platform.
+
+### Test Series Module (Student):
+
+* **Browse & Enroll:**
+
+  * List available Test Series / Mock Tests / Previous Year Papers.
+  * Filters: subject, difficulty, type.
+
+* **Attempt Interface:**
+
+  * Timer-based environment.
+  * Navigate questions, save answers, auto-submit on time expiry.
+
+* **Results & Ranks:**
+
+  * Instant scorecard.
+  * Breakdown of correct/incorrect answers.
+  * Detailed explanations.
+  * All India Rank & percentile.
+
+* **History & Insights:**
+
+  * Track past attempts.
+  * Performance trends over time.
+  * Access solutions anytime.
+
+### Calendar & Notifications:
+
+* Personal calendar for classes/tests/events.
+* Notifications for upcoming schedules.
+
+### Profile & Settings:
+
+* Update personal info, language, preferences.
+
+### Support:
+
+* Student helpdesk / support system.
+
+---
